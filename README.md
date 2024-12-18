@@ -65,6 +65,17 @@ Understand the flow of ideas in a document broken into paragraphs.
    pip install -r requirements.txt
    ```
 
+3. **Set up Environment Variables**
+   ```bash
+   cp .env.example .env
+   ```
+   Then edit the `.env` file and fill in your API keys:
+   ```
+   GROQ_API_KEY=your_groq_api_key_here
+   ```
+   You can obtain the necessary API keys from:
+   - Groq API key: [Groq docs quickstart](https://console.groq.com/docs/quickstart)
+
 ### Usage
 
 1. In `src/summarize.py`, add the file name and type, for example:
